@@ -78,9 +78,9 @@ npm start
 Scan the QR code with Expo Go to view the app on your device.
 
 ![Home page](assets/home.png)
-![Home Job](assets/j.png)
-![Job Discription](assets/my_image.png)
-![Google jov](assets/my_image.png)
+![Home Job](assets/job.png)
+![Job Discription](assets/jobd.png)
+![Google jov](assets/jobd1.png)
 
 🖼️ Snippets
 <details> <summary><code>Search.js</code></summary>
